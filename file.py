@@ -278,7 +278,7 @@ class simpan_file:
             linex()
             nm  = input(f' [{B}•{W}] WRITE FILE NAME : ').replace(' ','_')
             lk = '/sdcard/'
-            lok = '%s%s'%(lk,nm) we
+            lok = '%s%s'%(lk,nm) 
             open(lok,'a+')
             for d in dump:
                 try: open(lok,'a+').write(d+'\n')
